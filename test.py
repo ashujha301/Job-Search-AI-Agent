@@ -1,9 +1,11 @@
 from typing import List, Dict
 import json
+
+
 import os
 
 
-class Student:
+class Student_class:
     def __init__(self, student_id: int, name: str):
         self.student_id = student_id
         self.name = name
